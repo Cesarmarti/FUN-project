@@ -1,0 +1,84 @@
+{
+    "discipline": "Skiing",
+    "skills":
+    [
+        {
+            "Name": "Skill 1",
+            "label": "A",
+            "value": 10,
+            "deduction": 1
+        },
+        {
+            "Name": "Skill 2",
+            "label": "B",
+            "value": 5,
+            "deduction": 1
+        },
+        {
+            "Name": "Skill 3",
+            "label": "C",
+            "value": 7,
+            "deduction": 1
+        }
+    ],
+    "rules":
+    [
+        {
+            "rule_type": 0,
+            "groups":
+            [
+                {
+                    "k": 4,
+                    "skills":
+                    [
+                        "A",
+                        "B"
+                    ]
+                },
+                {
+                    "k": 2,
+                    "skills":
+                    [
+                        "A"
+                    ]
+                }
+            ]
+        },
+        {
+            "rule_type": 1,
+            "groups":
+            [
+                {
+                    "value": 4,
+                    "skills":
+                    [
+                        "A",
+                        "B",
+                        "C"
+                    ]
+                }
+            ]
+        },
+        {
+            "rule_type": 2,
+            "connections":
+            [
+                {
+                    "s1": "A",
+                    "s2": "B",
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "rule_type": 3,
+            "edges":
+            [
+                {
+                    "s1": "A",
+                    "s2": "B"
+                }
+            ]
+        }
+    ]
+}
