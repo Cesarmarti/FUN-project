@@ -3,29 +3,26 @@
     "skills":
     [
         {
-            "Name": "Skill 1",
+            "name": "Skill 1",
             "label": "A",
             "value": 10,
             "deduction": 1
         },
         {
-            "Name": "Skill 2",
+            "name": "Skill 2",
             "label": "B",
             "value": 5,
             "deduction": 1
         },
         {
-            "Name": "Skill 3",
+            "name": "Skill 3",
             "label": "C",
             "value": 7,
             "deduction": 1
         }
     ],
-    "rules":
-    [
-        {
-            "rule_type": 0,
-            "groups":
+    "antiRepetitionRule":{
+        "groups":
             [
                 {
                     "k": 4,
@@ -43,10 +40,9 @@
                     ]
                 }
             ]
-        },
-        {
-            "rule_type": 1,
-            "groups":
+    },
+    "elementGroupRule":{
+        "groups":
             [
                 {
                     "value": 4,
@@ -58,10 +54,9 @@
                     ]
                 }
             ]
-        },
-        {
-            "rule_type": 2,
-            "connections":
+    },
+    "connectionRule":{
+        "connections":
             [
                 {
                     "s1": "A",
@@ -69,16 +64,14 @@
                     "value": 4
                 }
             ]
-        },
-        {
-            "rule_type": 3,
-            "edges":
+    },
+    "incompleteGraphRule":{
+        "edges":
             [
                 {
                     "s1": "A",
                     "s2": "B"
                 }
             ]
-        }
-    ]
+    }
 }
