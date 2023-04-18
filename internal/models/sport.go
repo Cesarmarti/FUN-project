@@ -1,4 +1,9 @@
-package sports
+package models
+
+import (
+	"encoding/json"
+	"io/ioutil"
+)
 
 type Sport struct {
 	Discipline          string               `json:"discipline"`
@@ -51,4 +56,22 @@ type IncompleteGraphRule struct {
 type Edge struct {
 	S1 string `json:"s1"`
 	S2 string `json:"s2"`
+}
+
+// Reads and unmarshals a sport json into the Sport struct
+func ParseSport(filePath string) (*Sport, error) {
+	// Read file
+	file, err := ioutil.ReadFile(filePath)
+	if err != nil {
+		return nil, err
+	}
+
+	// Unmarshal json
+	sport := &Sport{}
+	err = json.Unmarshal(file, sport)
+	if err != nil {
+		return nil, err
+	}
+
+	return sport, nil
 }

@@ -2,27 +2,42 @@ package main
 
 import (
 	"fmt"
+	"os"
 
 	al "github.com/Cesarmarti/FUN-project/internal/algorithm"
-	sp "github.com/Cesarmarti/FUN-project/internal/sports"
+	"github.com/Cesarmarti/FUN-project/internal/models"
 )
 
 func main() {
-	// TODO: Determine and implement run parameters
-	// PARAMS:
-	// filePath
-	// option to give a sequence or run the generator for given length
+	// TODO: Add the option to run sequence generator instead
 
-	filePath := "skiing.json"
-	seq := "abcdefg"
+	args := os.Args[1:]
 
-	sport, err := sp.ParseSport(filePath)
+	if len(args) != 2 {
+		fmt.Println("Invalid arguments")
+		fmt.Println("Correct usage: ")
+		fmt.Println("go run main.go <configFilePath> <sequence>")
+		fmt.Println("OR")
+		fmt.Println("./fun-project <configFilePath> <sequence>")
+		return
+	}
+
+	filePath := args[0]
+	seq := args[1]
+
+	sport, err := models.ParseSport(filePath)
 	if err != nil {
 		fmt.Println(err)
 	}
 
 	algorithm := al.NewAlgorithm(sport)
-	sequence := al.NewSequence(seq)
+	sequence := models.NewSequence(seq)
+
+	valid := algorithm.ValidateSequence(sequence)
+	if !valid {
+		fmt.Println("Invalid sequence")
+		return
+	}
 
 	value := algorithm.Evaluate(sequence)
 
