@@ -9,16 +9,19 @@ type AntiRepetition struct {
 	// if it has more than one, we have a non-hierarhical anti repetition rule
 	skillCounters map[string][]*RuleCounter
 	hierarhical   bool
+	counters      []*RuleCounter
 }
 
-func NewAntiRepetition(groups []models.AntiRepetitionGroup) *AntiRepetition {
-	antiRepetition := &AntiRepetition{
+func NewAntiRepetition(groups []models.AntiRepetitionGroup) AntiRepetition {
+	antiRepetition := AntiRepetition{
 		skillCounters: make(map[string][]*RuleCounter),
+		counters:      []*RuleCounter{},
 	}
 
 	// Go over groups and point each move to the right ruleCounter(s)
 	for _, g := range groups {
 		ruleCounter := NewRuleCounter(g.K)
+		antiRepetition.counters = append(antiRepetition.counters, ruleCounter)
 		for _, s := range g.Skills {
 			antiRepetition.skillCounters[s] = append(antiRepetition.skillCounters[s], ruleCounter)
 		}
@@ -35,13 +38,20 @@ func (r *AntiRepetition) GetBitstring(seq models.Sequence) []int {
 
 	if r.hierarhical {
 		for i, s := range seq {
-			bitstring[i] = r.skillCounters[s][0].Use()
+			val, ok := r.skillCounters[s]
+			if ok {
+				bitstring[i] = val[0].Use()
+			} else {
+				bitstring[i] = 1
+			}
+
 		}
 	} else {
 		// Non hierarhical rule
-		// TODO: Determine how to handle non hierarhical rule
-		// INFO: Perhaps permutate the order which the groups are used in
 	}
+
+	// Reset the counters
+	r.ResetCounters()
 
 	return bitstring
 }
@@ -57,13 +67,23 @@ func (r *AntiRepetition) isHierarhical() bool {
 	return true
 }
 
+func (r *AntiRepetition) ResetCounters() {
+	for _, sc := range r.counters {
+		sc.Reset()
+	}
+}
+
 // RuleCounter keeps a counter for each group of elements
 type RuleCounter struct {
-	k int
+	k        int
+	original int
 }
 
 func NewRuleCounter(k int) *RuleCounter {
-	return &RuleCounter{k: k}
+	return &RuleCounter{
+		k:        k,
+		original: k,
+	}
 }
 
 func (r *RuleCounter) Use() int {
@@ -73,4 +93,8 @@ func (r *RuleCounter) Use() int {
 	} else {
 		return 0
 	}
+}
+
+func (r *RuleCounter) Reset() {
+	r.k = r.original
 }

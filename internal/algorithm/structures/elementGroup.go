@@ -6,8 +6,8 @@ type ElementGroup struct {
 	skillGroups map[string]int
 }
 
-func NewElementGroup(skills []models.Skill, groups []models.ElementGroupGroup) *ElementGroup {
-	elementGroup := &ElementGroup{
+func NewElementGroup(skills []models.Skill, groups []models.ElementGroupGroup) ElementGroup {
+	elementGroup := ElementGroup{
 		skillGroups: make(map[string]int),
 	}
 

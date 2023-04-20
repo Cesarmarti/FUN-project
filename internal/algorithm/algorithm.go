@@ -7,14 +7,14 @@ import (
 )
 
 type Algorithm struct {
-	Sport      *models.Sport
+	Sport      models.Sport
 	Values     map[string]int
 	Deductions map[string]int
-	Structures *structures.Structures
+	Structures structures.Structures
 }
 
-func NewAlgorithm(sport *models.Sport) *Algorithm {
-	algorithm := &Algorithm{
+func NewAlgorithm(sport models.Sport) Algorithm {
+	algorithm := Algorithm{
 		Sport: sport,
 	}
 

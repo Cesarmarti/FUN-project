@@ -3,14 +3,14 @@ package structures
 import "github.com/Cesarmarti/FUN-project/internal/models"
 
 type Structures struct {
-	AntiRepetition  *AntiRepetition
-	ElementGroup    *ElementGroup
-	Connection      *Connection
-	IncompleteGraph *IncompleteGraph
+	AntiRepetition  AntiRepetition
+	ElementGroup    ElementGroup
+	Connection      Connection
+	IncompleteGraph IncompleteGraph
 }
 
-func NewStructures() *Structures {
-	return &Structures{}
+func NewStructures() Structures {
+	return Structures{}
 }
 
 func (s *Structures) InitAntiRepetition(groups []models.AntiRepetitionGroup) {

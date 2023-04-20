@@ -6,8 +6,8 @@ type Connection struct {
 	connectionPairs map[string]int
 }
 
-func NewConnection(connections []models.Connection) *Connection {
-	connection := &Connection{
+func NewConnection(connections []models.Connection) Connection {
+	connection := Connection{
 		connectionPairs: make(map[string]int),
 	}
 

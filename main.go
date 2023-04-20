@@ -1,45 +1,58 @@
 package main
 
 import (
+	"flag"
 	"fmt"
-	"os"
 
 	al "github.com/Cesarmarti/FUN-project/internal/algorithm"
+	"github.com/Cesarmarti/FUN-project/internal/generator"
 	"github.com/Cesarmarti/FUN-project/internal/models"
 )
 
 func main() {
-	// TODO: Add the option to run sequence generator instead
+	fileFlag := flag.String("file", "", "path to config file")
+	sequenceFlag := flag.String("seq", "", "sequence to evaluate given as string")
+	generatorFlag := flag.Int("gen", 0, "upper length of sequences to generate")
+	flag.Parse()
 
-	args := os.Args[1:]
+	filePath := ""
 
-	if len(args) != 2 {
-		fmt.Println("Invalid arguments")
-		fmt.Println("Correct usage: ")
-		fmt.Println("go run main.go <configFilePath> <sequence>")
-		fmt.Println("OR")
-		fmt.Println("./fun-project <configFilePath> <sequence>")
+	if *fileFlag != "" {
+		filePath = *fileFlag
+	} else {
+		flag.Usage()
 		return
 	}
-
-	filePath := args[0]
-	seq := args[1]
 
 	sport, err := models.ParseSport(filePath)
 	if err != nil {
 		fmt.Println(err)
+		return
+	} else {
+		fmt.Printf("Sport: %s\n", sport.Discipline)
 	}
 
 	algorithm := al.NewAlgorithm(sport)
-	sequence := models.NewSequence(seq)
 
-	valid := algorithm.ValidateSequence(sequence)
-	if !valid {
-		fmt.Println("Invalid sequence")
-		return
+	if *sequenceFlag != "" {
+		seq := *sequenceFlag
+		sequence := models.NewSequence(seq)
+
+		valid := algorithm.ValidateSequence(sequence)
+		if !valid {
+			fmt.Println("Invalid sequence")
+			return
+		}
+
+		value := algorithm.Evaluate(sequence)
+		fmt.Printf("Value of sequence %s : %v\n", seq, value)
 	}
 
-	value := algorithm.Evaluate(sequence)
+	if *generatorFlag != 0 {
+		seqs := generator.GenerateSequences(sport.Skills, *generatorFlag)
+		maxSequences, maxValue := generator.TestSequences(&algorithm, seqs)
+		fmt.Printf("Optimal sequence(s): %v\n", maxSequences)
+		fmt.Printf("Value of optimal sequence(s): %v\n", maxValue)
+	}
 
-	fmt.Printf("Sequence value: %v\n", value)
 }

@@ -6,8 +6,8 @@ type IncompleteGraph struct {
 	disallowedEdges map[string]bool
 }
 
-func NewIncompleteGraph(edges []models.Edge) *IncompleteGraph {
-	incompleteGraph := &IncompleteGraph{
+func NewIncompleteGraph(edges []models.Edge) IncompleteGraph {
+	incompleteGraph := IncompleteGraph{
 		disallowedEdges: make(map[string]bool),
 	}
 

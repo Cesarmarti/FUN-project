@@ -59,19 +59,20 @@ type Edge struct {
 }
 
 // Reads and unmarshals a sport json into the Sport struct
-func ParseSport(filePath string) (*Sport, error) {
+func ParseSport(filePath string) (Sport, error) {
+	sport := &Sport{}
+
 	// Read file
 	file, err := ioutil.ReadFile(filePath)
 	if err != nil {
-		return nil, err
+		return *sport, err
 	}
 
 	// Unmarshal json
-	sport := &Sport{}
 	err = json.Unmarshal(file, sport)
 	if err != nil {
-		return nil, err
+		return *sport, err
 	}
 
-	return sport, nil
+	return *sport, nil
 }
