@@ -13,6 +13,8 @@ func main() {
 	fileFlag := flag.String("file", "", "path to config file")
 	sequenceFlag := flag.String("seq", "", "sequence to evaluate given as string")
 	generatorFlag := flag.Int("gen", 0, "upper length of sequences to generate")
+	generatorMinimumFlag := flag.Int("gen-min", 1, "minimum length of sequences to generate")
+
 	flag.Parse()
 
 	filePath := ""
@@ -49,7 +51,11 @@ func main() {
 	}
 
 	if *generatorFlag != 0 {
-		seqs := generator.GenerateSequences(sport.Skills, *generatorFlag)
+		if *generatorFlag < *generatorMinimumFlag {
+			fmt.Println("lower bound should be even or less than greater bound for generation length")
+			return
+		}
+		seqs := generator.GenerateSequences(sport.Skills, *generatorFlag, *generatorMinimumFlag)
 		maxSequences, maxValue := generator.TestSequences(&algorithm, seqs)
 		fmt.Printf("Optimal sequence(s): %v\n", maxSequences)
 		fmt.Printf("Value of optimal sequence(s): %v\n", maxValue)

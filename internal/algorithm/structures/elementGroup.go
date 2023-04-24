@@ -11,11 +11,6 @@ func NewElementGroup(skills []models.Skill, groups []models.ElementGroupGroup) E
 		skillGroups: make(map[string]int),
 	}
 
-	// Init skill values to 0
-	for _, s := range skills {
-		elementGroup.skillGroups[s.Name] = 0
-	}
-
 	for _, g := range groups {
 		for _, s := range g.Skills {
 			elementGroup.skillGroups[s] = g.Value

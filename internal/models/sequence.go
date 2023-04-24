@@ -8,5 +8,5 @@ import (
 type Sequence []string
 
 func NewSequence(seq string) []string {
-	return strings.Split(seq, "")
+	return strings.Split(seq, ".")
 }
