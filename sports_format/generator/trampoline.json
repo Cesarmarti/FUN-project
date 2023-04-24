@@ -1,0 +1,5628 @@
+{
+    "discipline": "Skiing",
+    "skills":
+    [
+        {
+            "name": "SsTs",
+            "label": "SsTs",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "TsSs",
+            "label": "TsSs",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "TtSs",
+            "label": "TtSs",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "SsTt",
+            "label": "SsTt",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "TpSs",
+            "label": "TpSs",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "SsTp",
+            "label": "SsTp",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsTs",
+            "label": "SsTsTs",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsSs",
+            "label": "TsTsSs",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsTs",
+            "label": "TsSsTs",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtSs",
+            "label": "TtTtSs",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsTt",
+            "label": "TtSsTt",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtTt",
+            "label": "SsTtTt",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpTp",
+            "label": "SsTpTp",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsTp",
+            "label": "TpSsTp",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpSs",
+            "label": "TpTpSs",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "StTs",
+            "label": "StTs",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "TsSt",
+            "label": "TsSt",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "StTt",
+            "label": "StTt",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "TtSt",
+            "label": "TtSt",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "TpSt",
+            "label": "TpSt",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "StTp",
+            "label": "StTp",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "StTsTs",
+            "label": "StTsTs",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsStTs",
+            "label": "TsStTs",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsSt",
+            "label": "TsTsSt",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "StTtTt",
+            "label": "StTtTt",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TtStTt",
+            "label": "TtStTt",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtSt",
+            "label": "TtTtSt",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpSt",
+            "label": "TpTpSt",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TpStTp",
+            "label": "TpStTp",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "StTpTp",
+            "label": "StTpTp",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpTs",
+            "label": "SpTs",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "TsSp",
+            "label": "TsSp",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "SpTt",
+            "label": "SpTt",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "TtSp",
+            "label": "TtSp",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "TpSp",
+            "label": "TpSp",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "SpTp",
+            "label": "SpTp",
+            "value": 0.6,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsTs",
+            "label": "SpTsTs",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpTs",
+            "label": "TsSpTs",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsSp",
+            "label": "TsTsSp",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtTt",
+            "label": "SpTtTt",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpTt",
+            "label": "TtSpTt",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtSp",
+            "label": "TtTtSp",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpTp",
+            "label": "SpTpTp",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpSp",
+            "label": "TpTpSp",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpTp",
+            "label": "TpSpTp",
+            "value": 0.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTs",
+            "label": "SsSsTs",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsSs",
+            "label": "TsSsSs",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsSs",
+            "label": "SsTsSs",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTt",
+            "label": "SsSsTt",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtSs",
+            "label": "SsTtSs",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsSs",
+            "label": "TtSsSs",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsSs",
+            "label": "TpSsSs",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpSs",
+            "label": "SsTpSs",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTp",
+            "label": "SsSsTp",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsSsTs",
+            "label": "TsSsSsTs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsTsSs",
+            "label": "TsSsTsSs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsSsTs",
+            "label": "SsTsSsTs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsSsSs",
+            "label": "TsTsSsSs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsTsSs",
+            "label": "SsTsTsSs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTsTs",
+            "label": "SsSsTsTs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtSsTt",
+            "label": "SsTtSsTt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtTtSs",
+            "label": "SsTtTtSs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsSsTt",
+            "label": "TtSsSsTt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtSsSs",
+            "label": "TtTtSsSs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsTtSs",
+            "label": "TtSsTtSs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTtTt",
+            "label": "SsSsTtTt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpSsSs",
+            "label": "TpTpSsSs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsTpSs",
+            "label": "TpSsTpSs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTpTp",
+            "label": "SsSsTpTp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsSsTp",
+            "label": "TpSsSsTp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpTpSs",
+            "label": "SsTpTpSs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpSsTp",
+            "label": "SsTpSsTp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "StTsSt",
+            "label": "StTsSt",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TsStSt",
+            "label": "TsStSt",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "StStTs",
+            "label": "StStTs",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "StStTt",
+            "label": "StStTt",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "StTtSt",
+            "label": "StTtSt",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TtStSt",
+            "label": "TtStSt",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "StTpSt",
+            "label": "StTpSt",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "StStTp",
+            "label": "StStTp",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TpStSt",
+            "label": "TpStSt",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TsStTsSt",
+            "label": "TsStTsSt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsStSt",
+            "label": "TsTsStSt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "StTsTsSt",
+            "label": "StTsTsSt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TsStStTs",
+            "label": "TsStStTs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "StStTsTs",
+            "label": "StStTsTs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "StTsStTs",
+            "label": "StTsStTs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "StTtTtSt",
+            "label": "StTtTtSt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtStSt",
+            "label": "TtTtStSt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TtStTtSt",
+            "label": "TtStTtSt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "StTtStTt",
+            "label": "StTtStTt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "StStTtTt",
+            "label": "StStTtTt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TtStStTt",
+            "label": "TtStStTt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "StTpTpSt",
+            "label": "StTpTpSt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "StStTpTp",
+            "label": "StStTpTp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TpStStTp",
+            "label": "TpStStTp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpStSt",
+            "label": "TpTpStSt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "StTpStTp",
+            "label": "StTpStTp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TpStTpSt",
+            "label": "TpStTpSt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsSp",
+            "label": "SpTsSp",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTs",
+            "label": "SpSpTs",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpSp",
+            "label": "TsSpSp",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTt",
+            "label": "SpSpTt",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtSp",
+            "label": "SpTtSp",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpSp",
+            "label": "TtSpSp",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpSp",
+            "label": "TpSpSp",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpSp",
+            "label": "SpTpSp",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTp",
+            "label": "SpSpTp",
+            "value": 1.1,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTsTs",
+            "label": "SpSpTsTs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsSpSp",
+            "label": "TsTsSpSp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpTsSp",
+            "label": "TsSpTsSp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsSpTs",
+            "label": "SpTsSpTs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpSpTs",
+            "label": "TsSpSpTs",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsTsSp",
+            "label": "SpTsTsSp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTtTt",
+            "label": "SpSpTtTt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtTtSp",
+            "label": "SpTtTtSp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpSpTt",
+            "label": "TtSpSpTt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtSpSp",
+            "label": "TtTtSpSp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtSpTt",
+            "label": "SpTtSpTt",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpTtSp",
+            "label": "TtSpTtSp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpSpTp",
+            "label": "SpTpSpTp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpTpSp",
+            "label": "SpTpTpSp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTpTp",
+            "label": "SpSpTpTp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpSpSp",
+            "label": "TpTpSpSp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpSpTp",
+            "label": "TpSpSpTp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpTpSp",
+            "label": "TpSpTpSp",
+            "value": 1.2,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTsSs",
+            "label": "SsSsTsSs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsSsSs",
+            "label": "TsSsSsSs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsSsSs",
+            "label": "SsTsSsSs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTs",
+            "label": "SsSsSsTs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTtSs",
+            "label": "SsSsTtSs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTt",
+            "label": "SsSsSsTt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtSsSs",
+            "label": "SsTtSsSs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsSsSs",
+            "label": "TtSsSsSs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsSsSs",
+            "label": "TpSsSsSs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTp",
+            "label": "SsSsSsTp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpSsSs",
+            "label": "SsTpSsSs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTpSs",
+            "label": "SsSsTpSs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTsTsSs",
+            "label": "SsSsTsTsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsSsSsTs",
+            "label": "SsTsSsSsTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTsSsTs",
+            "label": "SsSsTsSsTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsSsTsSs",
+            "label": "TsSsSsTsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsTsSsSs",
+            "label": "TsSsTsSsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTsTs",
+            "label": "SsSsSsTsTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsSsSsTs",
+            "label": "TsSsSsSsTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsSsSsSs",
+            "label": "TsTsSsSsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsSsTsSs",
+            "label": "SsTsSsTsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsTsSsSs",
+            "label": "SsTsTsSsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtTtSsSs",
+            "label": "SsTtTtSsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsTtSsSs",
+            "label": "TtSsTtSsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTtTtSs",
+            "label": "SsSsTtTtSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtSsSsTt",
+            "label": "SsTtSsSsTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsSsTtSs",
+            "label": "TtSsSsTtSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTtSsTt",
+            "label": "SsSsTtSsTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTtTt",
+            "label": "SsSsSsTtTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsSsSsTt",
+            "label": "TtSsSsSsTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtSsSsSs",
+            "label": "TtTtSsSsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtSsTtSs",
+            "label": "SsTtSsTtSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsTpSsSs",
+            "label": "TpSsTpSsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTpTp",
+            "label": "SsSsSsTpTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpTpSsSs",
+            "label": "SsTpTpSsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsSsTpSs",
+            "label": "TpSsSsTpSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpSsTpSs",
+            "label": "SsTpSsTpSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpSsSsSs",
+            "label": "TpTpSsSsSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTpSsTp",
+            "label": "SsSsTpSsTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsSsSsTp",
+            "label": "TpSsSsSsTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpSsSsTp",
+            "label": "SsTpSsSsTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTpTpSs",
+            "label": "SsSsTpTpSs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StTsStSt",
+            "label": "StTsStSt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsStStSt",
+            "label": "TsStStSt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTs",
+            "label": "StStStTs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "StStTsSt",
+            "label": "StStTsSt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "StTtStSt",
+            "label": "StTtStSt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TtStStSt",
+            "label": "TtStStSt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTt",
+            "label": "StStStTt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "StStTtSt",
+            "label": "StStTtSt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTp",
+            "label": "StStStTp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "StStTpSt",
+            "label": "StStTpSt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TpStStSt",
+            "label": "TpStStSt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "StTpStSt",
+            "label": "StTpStSt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsStTsStSt",
+            "label": "TsStTsStSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTsTs",
+            "label": "StStStTsTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StStTsStTs",
+            "label": "StStTsStTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TsStStTsSt",
+            "label": "TsStStTsSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsStStSt",
+            "label": "TsTsStStSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StTsTsStSt",
+            "label": "StTsTsStSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StTsStStTs",
+            "label": "StTsStStTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TsStStStTs",
+            "label": "TsStStStTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StTsStTsSt",
+            "label": "StTsStTsSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StStTsTsSt",
+            "label": "StStTsTsSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTtTt",
+            "label": "StStStTtTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StStTtTtSt",
+            "label": "StStTtTtSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StStTtStTt",
+            "label": "StStTtStTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StTtStTtSt",
+            "label": "StTtStTtSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StTtStStTt",
+            "label": "StTtStStTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtStTtStSt",
+            "label": "TtStTtStSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtStStStTt",
+            "label": "TtStStStTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtStStSt",
+            "label": "TtTtStStSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtStStTtSt",
+            "label": "TtStStTtSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StTtTtStSt",
+            "label": "StTtTtStSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StTpStTpSt",
+            "label": "StTpStTpSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpStStTpSt",
+            "label": "TpStStTpSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpStStStTp",
+            "label": "TpStStStTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StTpTpStSt",
+            "label": "StTpTpStSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StStTpTpSt",
+            "label": "StStTpTpSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StTpStStTp",
+            "label": "StTpStStTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTpTp",
+            "label": "StStStTpTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpStStSt",
+            "label": "TpTpStStSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpStTpStSt",
+            "label": "TpStTpStSt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "StStTpStTp",
+            "label": "StStTpStTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTsSp",
+            "label": "SpSpTsSp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsSpSp",
+            "label": "SpTsSpSp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTs",
+            "label": "SpSpSpTs",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpSpSp",
+            "label": "TsSpSpSp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTt",
+            "label": "SpSpSpTt",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTtSp",
+            "label": "SpSpTtSp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpSpSp",
+            "label": "TtSpSpSp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtSpSp",
+            "label": "SpTtSpSp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpSpSp",
+            "label": "SpTpSpSp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTpSp",
+            "label": "SpSpTpSp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpSpSp",
+            "label": "TpSpSpSp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTp",
+            "label": "SpSpSpTp",
+            "value": 1.7,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpTsSpSp",
+            "label": "TsSpTsSpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsSpTsSp",
+            "label": "SpTsSpTsSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTsSpTs",
+            "label": "SpSpTsSpTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTsTs",
+            "label": "SpSpSpTsTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsTsSpSp",
+            "label": "SpTsTsSpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpSpSpTs",
+            "label": "TsSpSpSpTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTsTsSp",
+            "label": "SpSpTsTsSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsSpSpTs",
+            "label": "SpTsSpSpTs",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpSpTsSp",
+            "label": "TsSpSpTsSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsSpSpSp",
+            "label": "TsTsSpSpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpTtSpSp",
+            "label": "TtSpTtSpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTtSpTt",
+            "label": "SpSpTtSpTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpSpSpTt",
+            "label": "TtSpSpSpTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtSpTtSp",
+            "label": "SpTtSpTtSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtTtSpSp",
+            "label": "SpTtTtSpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtSpSpTt",
+            "label": "SpTtSpSpTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtSpSpSp",
+            "label": "TtTtSpSpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpSpTtSp",
+            "label": "TtSpSpTtSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTtTtSp",
+            "label": "SpSpTtTtSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTtTt",
+            "label": "SpSpSpTtTt",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpSpSpSp",
+            "label": "TpTpSpSpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTpTpSp",
+            "label": "SpSpTpTpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTpTp",
+            "label": "SpSpSpTpTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpTpSpSp",
+            "label": "TpSpTpSpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpSpTpSp",
+            "label": "SpTpSpTpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpSpSpTp",
+            "label": "SpTpSpSpTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpSpSpTp",
+            "label": "TpSpSpSpTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpSpTpSp",
+            "label": "TpSpSpTpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTpSpTp",
+            "label": "SpSpTpSpTp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpTpSpSp",
+            "label": "SpTpTpSpSp",
+            "value": 1.8,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsSsTs",
+            "label": "SsSsSsSsTs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsSsSsSs",
+            "label": "SsTsSsSsSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTsSsSs",
+            "label": "SsSsTsSsSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTsSs",
+            "label": "SsSsSsTsSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsSsSsSs",
+            "label": "TsSsSsSsSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsSsSsSs",
+            "label": "TtSsSsSsSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTtSs",
+            "label": "SsSsSsTtSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtSsSsSs",
+            "label": "SsTtSsSsSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTtSsSs",
+            "label": "SsSsTtSsSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsSsTt",
+            "label": "SsSsSsSsTt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsSsTp",
+            "label": "SsSsSsSsTp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTpSs",
+            "label": "SsSsSsTpSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTpSsSs",
+            "label": "SsSsTpSsSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsSsSsSs",
+            "label": "TpSsSsSsSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpSsSsSs",
+            "label": "SsTpSsSsSs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTsSsSsTs",
+            "label": "SsSsTsSsSsTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsSsTsSsSs",
+            "label": "SsTsSsTsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsSsSsTsSs",
+            "label": "SsTsSsSsTsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsSsSsSsTs",
+            "label": "TsSsSsSsSsTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTsSsTs",
+            "label": "SsSsSsTsSsTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTsSsTsSs",
+            "label": "SsSsTsSsTsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsTsSsSsSs",
+            "label": "TsSsTsSsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTsTsSsSs",
+            "label": "SsSsTsTsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsSsSsSsSs",
+            "label": "TsTsSsSsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsSsTsSsSs",
+            "label": "TsSsSsTsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsSsSsSsTs",
+            "label": "SsTsSsSsSsTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTsTsSs",
+            "label": "SsSsSsTsTsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsSsTsTs",
+            "label": "SsSsSsSsTsTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTsTsSsSsSs",
+            "label": "SsTsTsSsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsSsSsSsTsSs",
+            "label": "TsSsSsSsTsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsSsTtTt",
+            "label": "SsSsSsSsTtTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsSsSsTtSs",
+            "label": "TtSsSsSsTtSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtSsSsSsTt",
+            "label": "SsTtSsSsSsTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtSsTtSsSs",
+            "label": "SsTtSsTtSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsSsTtSsSs",
+            "label": "TtSsSsTtSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTtSsTtSs",
+            "label": "SsSsTtSsTtSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsSsSsSsTt",
+            "label": "TtSsSsSsSsTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtSsTtSsSsSs",
+            "label": "TtSsTtSsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtTtSsSsSs",
+            "label": "SsTtTtSsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTtTtSsSs",
+            "label": "SsSsTtTtSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTtSsSsTt",
+            "label": "SsSsTtSsSsTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtSsSsSsSs",
+            "label": "TtTtSsSsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTtTtSs",
+            "label": "SsSsSsTtTtSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTtSsTt",
+            "label": "SsSsSsTtSsTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTtSsSsTtSs",
+            "label": "SsTtSsSsTtSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpSsSsSsTp",
+            "label": "SsTpSsSsSsTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsSsSsSsTp",
+            "label": "TpSsSsSsSsTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTpTpSs",
+            "label": "SsSsSsTpTpSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTpSsSsTp",
+            "label": "SsSsTpSsSsTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpSsSsTpSs",
+            "label": "SsTpSsSsTpSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsSsTpSsSs",
+            "label": "TpSsSsTpSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpTpSsSsSs",
+            "label": "SsTpTpSsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsTpSsTpSsSs",
+            "label": "SsTpSsTpSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsSsTpTp",
+            "label": "SsSsSsSsTpTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsSsSsTpSs",
+            "label": "TpSsSsSsTpSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTpTpSsSs",
+            "label": "SsSsTpTpSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpSsTpSsSsSs",
+            "label": "TpSsTpSsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpSsSsSsSs",
+            "label": "TpTpSsSsSsSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsTpSsTpSs",
+            "label": "SsSsTpSsTpSs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SsSsSsTpSsTp",
+            "label": "SsSsSsTpSsTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStTsStSt",
+            "label": "StStTsStSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTsSt",
+            "label": "StStStTsSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StTsStStSt",
+            "label": "StTsStStSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "TsStStStSt",
+            "label": "TsStStStSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StStStStTs",
+            "label": "StStStStTs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StStTtStSt",
+            "label": "StStTtStSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StTtStStSt",
+            "label": "StTtStStSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "TtStStStSt",
+            "label": "TtStStStSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StStStStTt",
+            "label": "StStStStTt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTtSt",
+            "label": "StStStTtSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StStStStTp",
+            "label": "StStStStTp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "TpStStStSt",
+            "label": "TpStStStSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StTpStStSt",
+            "label": "StTpStStSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTpSt",
+            "label": "StStStTpSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StStTpStSt",
+            "label": "StStTpStSt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "StStTsStTsSt",
+            "label": "StStTsStTsSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsStStStStTs",
+            "label": "TsStStStStTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsStStStTsSt",
+            "label": "TsStStStTsSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTsStTs",
+            "label": "StStStTsStTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTsStStStTs",
+            "label": "StTsStStStTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsStStStSt",
+            "label": "TsTsStStStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTsTsStStSt",
+            "label": "StTsTsStStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTsStStTsSt",
+            "label": "StTsStStTsSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsStTsStStSt",
+            "label": "TsStTsStStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsStStTsStSt",
+            "label": "TsStStTsStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStTsTsStSt",
+            "label": "StStTsTsStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTsTsSt",
+            "label": "StStStTsTsSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStStStTsTs",
+            "label": "StStStStTsTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStTsStStTs",
+            "label": "StStTsStStTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTsStTsStSt",
+            "label": "StTsStTsStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStStStTtTt",
+            "label": "StStStStTtTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtStStStSt",
+            "label": "TtTtStStStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtStStStStTt",
+            "label": "TtStStStStTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTtTtSt",
+            "label": "StStStTtTtSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTtTtStStSt",
+            "label": "StTtTtStStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtStStTtStSt",
+            "label": "TtStStTtStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtStTtStStSt",
+            "label": "TtStTtStStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStTtTtStSt",
+            "label": "StStTtTtStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTtStTtStSt",
+            "label": "StTtStTtStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStTtStTtSt",
+            "label": "StStTtStTtSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTtStStStTt",
+            "label": "StTtStStStTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTtStStTtSt",
+            "label": "StTtStStTtSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtStStStTtSt",
+            "label": "TtStStStTtSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTtStTt",
+            "label": "StStStTtStTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStTtStStTt",
+            "label": "StStTtStStTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStStStTpTp",
+            "label": "StStStStTpTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpStStStStTp",
+            "label": "TpStStStStTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTpTpStStSt",
+            "label": "StTpTpStStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTpStTp",
+            "label": "StStStTpStTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTpStTpStSt",
+            "label": "StTpStTpStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpStTpStStSt",
+            "label": "TpStTpStStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpStStStSt",
+            "label": "TpTpStStStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStTpStStTp",
+            "label": "StStTpStStTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStTpStTpSt",
+            "label": "StStTpStTpSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTpStStStTp",
+            "label": "StTpStStStTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpStStTpStSt",
+            "label": "TpStStTpStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StTpStStTpSt",
+            "label": "StTpStStTpSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStTpTpStSt",
+            "label": "StStTpTpStSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpStStStTpSt",
+            "label": "TpStStStTpSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "StStStTpTpSt",
+            "label": "StStStTpTpSt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpSpTs",
+            "label": "SpSpSpSpTs",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTsSpSp",
+            "label": "SpSpTsSpSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTsSp",
+            "label": "SpSpSpTsSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpSpSpSp",
+            "label": "TsSpSpSpSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsSpSpSp",
+            "label": "SpTsSpSpSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTtSp",
+            "label": "SpSpSpTtSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTtSpSp",
+            "label": "SpSpTtSpSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpSpSpSp",
+            "label": "TtSpSpSpSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpSpTt",
+            "label": "SpSpSpSpTt",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtSpSpSp",
+            "label": "SpTtSpSpSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTpSp",
+            "label": "SpSpSpTpSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpSpSpSp",
+            "label": "SpTpSpSpSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpSpTp",
+            "label": "SpSpSpSpTp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpSpSpSp",
+            "label": "TpSpSpSpSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTpSpSp",
+            "label": "SpSpTpSpSp",
+            "value": 2.3,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTsTsSp",
+            "label": "SpSpSpTsTsSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsTsSpSpSpSp",
+            "label": "TsTsSpSpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpSpTsSpSp",
+            "label": "TsSpSpTsSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsSpTsSpSp",
+            "label": "SpTsSpTsSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsSpSpTsSp",
+            "label": "SpTsSpSpTsSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpSpSpSpTs",
+            "label": "TsSpSpSpSpTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsSpSpSpTs",
+            "label": "SpTsSpSpSpTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTsSpSpTs",
+            "label": "SpSpTsSpSpTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTsTsSpSpSp",
+            "label": "SpTsTsSpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpSpSpTsSp",
+            "label": "TsSpSpSpTsSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TsSpTsSpSpSp",
+            "label": "TsSpTsSpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpSpTsTs",
+            "label": "SpSpSpSpTsTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTsSpTs",
+            "label": "SpSpSpTsSpTs",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTsTsSpSp",
+            "label": "SpSpTsTsSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTsSpTsSp",
+            "label": "SpSpTsSpTsSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpSpTtTt",
+            "label": "SpSpSpSpTtTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTtSpTt",
+            "label": "SpSpSpTtSpTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtSpSpTtSp",
+            "label": "SpTtSpSpTtSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpSpSpTtSp",
+            "label": "TtSpSpSpTtSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpSpTtSpSp",
+            "label": "TtSpSpTtSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtSpSpSpTt",
+            "label": "SpTtSpSpSpTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpTtSpSpSp",
+            "label": "TtSpTtSpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTtSpTtSp",
+            "label": "SpSpTtSpTtSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtSpSpSpSpTt",
+            "label": "TtSpSpSpSpTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TtTtSpSpSpSp",
+            "label": "TtTtSpSpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTtSpSpTt",
+            "label": "SpSpTtSpSpTt",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTtTtSpSp",
+            "label": "SpSpTtTtSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtTtSpSpSp",
+            "label": "SpTtTtSpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTtTtSp",
+            "label": "SpSpSpTtTtSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTtSpTtSpSp",
+            "label": "SpTtSpTtSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpSpTpSpSp",
+            "label": "SpTpSpTpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpSpSpSpTp",
+            "label": "TpSpSpSpSpTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTpSpTpSp",
+            "label": "SpSpTpSpTpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpTpSpSpSp",
+            "label": "TpSpTpSpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpSpSpSpTp",
+            "label": "SpTpSpSpSpTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpSpTpTp",
+            "label": "SpSpSpSpTpTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpSpTpSpSp",
+            "label": "TpSpSpTpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTpTpSp",
+            "label": "SpSpSpTpTpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTpTpSpSp",
+            "label": "SpSpTpTpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpTpSpSpSp",
+            "label": "SpTpTpSpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpSpSpSpTpSp",
+            "label": "TpSpSpSpTpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "TpTpSpSpSpSp",
+            "label": "TpTpSpSpSpSp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpSpTpSpTp",
+            "label": "SpSpSpTpSpTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpSpTpSpSpTp",
+            "label": "SpSpTpSpSpTp",
+            "value": 2.4,
+            "deduction": 0
+        },
+        {
+            "name": "SpTpSpSpTpSp",
+            "label": "SpTpSpSpTpSp",
+            "value": 2.4,
+            "deduction": 0
+        }
+    ],
+    "antiRepetitionRule":
+    {
+        "groups":
+        [
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsSsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsSsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsTsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsSsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsSsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsTsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtTtSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsTtSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTtTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtSsSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsSsTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTtSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsSsSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtSsTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsTpSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpTpSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsSsTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpSsTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTpSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsSsSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpSsSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTpTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStTsStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTsStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStStTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsTsStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsStStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStStStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsStTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTsTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTtTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTtStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtStTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtStStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStTtStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStStStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStStTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtTtStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpStTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStStTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStStStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpTpStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTpTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpStStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStTpStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTpStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpTsSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsSpTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTsSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsTsSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpSpSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTsTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsSpSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpSpTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpTtSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTtSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpSpSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtSpTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtTtSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtSpSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpSpTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTtTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpTpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpSpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpSpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpSpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpSpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpTpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTtSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTpSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTsSsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsSsTsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsSsSsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsSsSsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTsSsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsTsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTsTsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsSsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsSsTsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsSsSsSsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsSsTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTsTsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSsSsSsTsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsSsTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsSsSsTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtSsSsSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtSsTtSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsSsTtSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTtSsTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsSsSsSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSsTtSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtTtSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTtTtSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTtSsSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtSsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTtTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTtSsTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTtSsSsTtSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpSsSsSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsSsSsSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTpTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTpSsSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpSsSsTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsSsTpSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpTpSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsTpSsTpSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsSsTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsSsSsTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTpTpSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSsTpSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpSsSsSsSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsTpSsTpSs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SsSsSsTpSsTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTsStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTtStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTpStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTsStTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStStStStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStStStTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTsStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsStStStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsStStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsTsStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsStStTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStTsStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsStStTsStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTsTsStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTsTsSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStStTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTsStStTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTsStTsStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStStTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtStStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStStStStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTtTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtTtStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStStTtStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStTtStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTtTtStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtStTtStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTtStTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtStStStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTtStStTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtStStStTtSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTtStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTtStStTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStStTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStStStStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpTpStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTpStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpStTpStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStTpStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpStStStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTpStStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTpStTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpStStStTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStStTpStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StTpStStTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStTpTpStSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpStStStTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "StStStTpTpSt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTsSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTtSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTsTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsTsSpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpSpTsSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsSpTsSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsSpSpTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpSpSpSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsSpSpSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTsSpSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTsTsSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpSpSpTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TsSpTsSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpSpTsTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTsSpTs"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTsTsSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTsSpTsSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpSpTtTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTtSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtSpSpTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpSpSpTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpSpTtSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtSpSpSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpTtSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTtSpTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtSpSpSpSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TtTtSpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTtSpSpTt"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTtTtSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtTtSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTtTtSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTtSpTtSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpSpTpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpSpSpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTpSpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpTpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpSpSpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpSpTpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpSpTpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTpTpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpTpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpSpSpSpTpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "TpTpSpSpSpSp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpSpTpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpSpTpSpSpTp"
+                ]
+            },
+            {
+                "k": 1,
+                "skills":
+                [
+                    "SpTpSpSpTpSp"
+                ]
+            }
+        ]
+    }
+}
