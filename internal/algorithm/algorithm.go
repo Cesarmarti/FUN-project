@@ -8,19 +8,19 @@ import (
 
 type Algorithm struct {
 	Sport      models.Sport
-	Values     map[string]int
-	Deductions map[string]int
+	Values     map[string]float64
+	Deductions map[string]float64
 	Structures structures.Structures
 }
 
-func NewAlgorithm(sport models.Sport) Algorithm {
+func NewAlgorithm(sport models.Sport, routines int) Algorithm {
 	algorithm := Algorithm{
 		Sport: sport,
 	}
 
 	// Initialize values and dedutions
-	values := make(map[string]int)
-	deduction := make(map[string]int)
+	values := make(map[string]float64)
+	deduction := make(map[string]float64)
 
 	for _, skill := range sport.Skills {
 		values[skill.Label] = skill.Value
@@ -32,7 +32,7 @@ func NewAlgorithm(sport models.Sport) Algorithm {
 	// Initialize structures for each rule that is present
 	structures := structures.NewStructures()
 	if sport.AntiRepetitionRule != nil {
-		structures.InitAntiRepetition(sport.AntiRepetitionRule.Groups)
+		structures.InitAntiRepetition(sport.AntiRepetitionRule.Groups, routines)
 	}
 
 	if sport.ElementGroupRule != nil {
@@ -53,13 +53,13 @@ func NewAlgorithm(sport models.Sport) Algorithm {
 }
 
 // Evaluate the sequence according to the rules of the sport
-func (a *Algorithm) Evaluate(seq models.Sequence) int {
-	value := 0
+func (a *Algorithm) Evaluate(seq models.Sequence, routine int) float64 {
+	value := 0.0
 
 	// Calculate anti repetition rule if preset, otherwise calculate basic rule
 	if a.Sport.AntiRepetitionRule != nil {
 		// Anti repetition rule already includes the basic rule
-		value += a.CalculateAntiRepetitionRule(seq)
+		value += a.CalculateAntiRepetitionRule(seq, routine)
 	} else {
 		value += a.CalculateBasicRule(seq)
 	}

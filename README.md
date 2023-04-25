@@ -24,7 +24,9 @@
     * -file (Required) : points to config file of the sport
     * -seq : single sequence to evaluate
     * -gen : upper length of sequences to generate and test, returns sequences witht the highest value
-    * -gen-min : minimum length of sequences to generate, defaults to 1
-2. Sequences
-    Sequence elements must be delimited with a dot.
+    * -gen-min : minimum length of sequences to generate, default: true
+    * -print-all : print all optimal sequences instead of one, default: false
+
+2. Sequences \
+    Sequence elements must be delimited with a dot. \
     Example: A.B.A.C

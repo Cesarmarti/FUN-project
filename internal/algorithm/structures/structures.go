@@ -13,8 +13,8 @@ func NewStructures() Structures {
 	return Structures{}
 }
 
-func (s *Structures) InitAntiRepetition(groups []models.AntiRepetitionGroup) {
-	s.AntiRepetition = NewAntiRepetition(groups)
+func (s *Structures) InitAntiRepetition(groups []models.AntiRepetitionGroup, routines int) {
+	s.AntiRepetition = NewAntiRepetition(groups, routines)
 }
 
 func (s *Structures) InitElementGroup(skills []models.Skill, groups []models.ElementGroupGroup) {

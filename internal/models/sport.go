@@ -15,10 +15,10 @@ type Sport struct {
 }
 
 type Skill struct {
-	Name      string `json:"name"`
-	Label     string `json:"label"`
-	Value     int    `json:"value"`
-	Deduction int    `json:"deduction"`
+	Name      string  `json:"name"`
+	Label     string  `json:"label"`
+	Value     float64 `json:"value"`
+	Deduction float64 `json:"deduction"`
 }
 
 type AntiRepetitionRule struct {
@@ -35,7 +35,7 @@ type ElementGroupRule struct {
 }
 
 type ElementGroupGroup struct {
-	Value  int      `json:"value"`
+	Value  float64  `json:"value"`
 	Skills []string `json:"skills"`
 }
 
@@ -44,9 +44,9 @@ type ConnectionRule struct {
 }
 
 type Connection struct {
-	S1    string `json:"s1"`
-	S2    string `json:"s2"`
-	Value int    `json:"value"`
+	S1    string  `json:"s1"`
+	S2    string  `json:"s2"`
+	Value float64 `json:"value"`
 }
 
 type IncompleteGraphRule struct {

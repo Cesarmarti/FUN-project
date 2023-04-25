@@ -3,12 +3,12 @@ package structures
 import "github.com/Cesarmarti/FUN-project/internal/models"
 
 type ElementGroup struct {
-	skillGroups map[string]int
+	skillGroups map[string]float64
 }
 
 func NewElementGroup(skills []models.Skill, groups []models.ElementGroupGroup) ElementGroup {
 	elementGroup := ElementGroup{
-		skillGroups: make(map[string]int),
+		skillGroups: make(map[string]float64),
 	}
 
 	for _, g := range groups {
@@ -20,6 +20,6 @@ func NewElementGroup(skills []models.Skill, groups []models.ElementGroupGroup) E
 	return elementGroup
 }
 
-func (e *ElementGroup) GetElementValue(skill string) int {
+func (e *ElementGroup) GetElementValue(skill string) float64 {
 	return e.skillGroups[skill]
 }
