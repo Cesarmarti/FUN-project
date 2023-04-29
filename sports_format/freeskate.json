@@ -1,0 +1,748 @@
+{
+    "discipline": "FreeSkate",
+    "skills":
+    [
+        {
+            "name": "Upright Spin",
+            "label": "USp",
+            "value": 1,
+            "deduction": 0.1
+        },
+        {
+            "name": "Layback Spin",
+            "label": "LSp",
+            "value": 1.2,
+            "deduction": 0.12
+        },
+        {
+            "name": "Camel Spin",
+            "label": "CSp",
+            "value": 1.1,
+            "deduction": 0.11
+        },
+        {
+            "name": "Sit Spin",
+            "label": "SSp",
+            "value": 1.1,
+            "deduction": 0.11
+        },
+        {
+            "name": "Upright Spin w/ Flying Entry",
+            "label": "FUSp",
+            "value": 1.5,
+            "deduction": 0.15
+        },
+        {
+            "name": "Layback Spin w/ Flying Entry",
+            "label": "FLSp",
+            "value": 1.7,
+            "deduction": 0.17
+        },
+        {
+            "name": "Camel Spin w/ Flying Entry",
+            "label": "FCSp",
+            "value": 1.6,
+            "deduction": 0.16
+        },
+        {
+            "name": "Sit Spin w/ Flying Entry",
+            "label": "FSSp",
+            "value": 1.7,
+            "deduction": 0.17
+        },
+        {
+            "name": "Upright Spin w/Change of Foot",
+            "label": "CUSp",
+            "value": 1.5,
+            "deduction": 0.15
+        },
+        {
+            "name": "Layback Spin w/Change of Foot",
+            "label": "CLSP",
+            "value": 1.7,
+            "deduction": 0.17
+        },
+        {
+            "name": "Camel Spin w/ Change of Foot",
+            "label": "CCSp",
+            "value": 1.7,
+            "deduction": 0.17
+        },
+        {
+            "name": "Sit Spin w/ Change of Foot",
+            "label": "CSSp",
+            "value": 1.6,
+            "deduction": 0.16
+        },
+        {
+            "name": "Combo Spin w/ no Change of Foot",
+            "label": "CoSp",
+            "value": 1.5,
+            "deduction": 0.15
+        },
+        {
+            "name": "Combo Spin w/ Change of Foot",
+            "label": "CCoSp",
+            "value": 1.7,
+            "deduction": 0.17
+        },
+        {
+            "name": "Step Sequence",
+            "label": "StSq",
+            "value": 1.5,
+            "deduction": 0.15
+        },
+        {
+            "name": "Choreographic Sequence",
+            "label": "ChSq",
+            "value": 3,
+            "deduction": 0.3
+        },
+
+        {
+            "name": "Upright Spin 1",
+            "label": "USp1",
+            "value": 1.2,
+            "deduction": 0.12
+        },
+        {
+            "name": "Layback Spin 1",
+            "label": "LSp1",
+            "value": 1.5,
+            "deduction": 0.15
+        },
+        {
+            "name": "Camel Spin 1",
+            "label": "CSp1",
+            "value": 1.4,
+            "deduction": 0.14
+        },
+        {
+            "name": "Sit Spin 1",
+            "label": "SSp1",
+            "value": 1.3,
+            "deduction": 0.13
+        },
+        {
+            "name": "Upright Spin w/ Flying Entry 1",
+            "label": "FUSp1",
+            "value": 1.7,
+            "deduction": 0.17
+        },
+        {
+            "name": "Layback Spin w/ Flying Entry 1",
+            "label": "FLSp1",
+            "value": 2,
+            "deduction": 0.2
+        },
+        {
+            "name": "Camel Spin w/ Flying Entry 1",
+            "label": "FCSp1",
+            "value": 1.9,
+            "deduction": 0.19
+        },
+        {
+            "name": "Sit Spin w/ Flying Entry 1",
+            "label": "FSSp1",
+            "value": 2,
+            "deduction": 0.2
+        },
+        {
+            "name": "Upright Spin w/Change of Foot 1",
+            "label": "CUSp1",
+            "value": 1.7,
+            "deduction": 0.17
+        },
+        {
+            "name": "Layback Spin w/Change of Foot 1",
+            "label": "CLSP1",
+            "value": 2,
+            "deduction": 0.2
+        },
+        {
+            "name": "Camel Spin w/ Change of Foot 1",
+            "label": "CCSp1",
+            "value": 2,
+            "deduction": 0.2
+        },
+        {
+            "name": "Sit Spin w/ Change of Foot 1",
+            "label": "CSSp1",
+            "value": 1.9,
+            "deduction": 0.19
+        },
+        {
+            "name": "Combo Spin w/ no Change of Foot 1",
+            "label": "CoSp1",
+            "value": 1.7,
+            "deduction": 0.17
+        },
+        {
+            "name": "Combo Spin w/ Change of Foot 1",
+            "label": "CCoSp1",
+            "value": 2,
+            "deduction": 0.2
+        },
+        {
+            "name": "Step Sequence 1",
+            "label": "StSq1",
+            "value": 1.8,
+            "deduction": 0.18
+        },
+
+        {
+            "name": "Upright Spin 2",
+            "label": "USp2",
+            "value": 1.5,
+            "deduction": 0.15
+        },
+        {
+            "name": "Layback Spin 2",
+            "label": "LSp2",
+            "value": 1.9,
+            "deduction": 0.19
+        },
+        {
+            "name": "Camel Spin 2",
+            "label": "CSp2",
+            "value": 1.8,
+            "deduction": 0.18
+        },
+        {
+            "name": "Sit Spin 2",
+            "label": "SSp2",
+            "value": 1.6,
+            "deduction": 0.16
+        },
+        {
+            "name": "Upright Spin w/ Flying Entry 2",
+            "label": "FUSp2",
+            "value": 2,
+            "deduction": 0.2
+        },
+        {
+            "name": "Layback Spin w/ Flying Entry 2",
+            "label": "FLSp2",
+            "value": 2.4,
+            "deduction": 0.24
+        },
+        {
+            "name": "Camel Spin w/ Flying Entry 2",
+            "label": "FCSp2",
+            "value": 2.3,
+            "deduction": 0.23
+        },
+        {
+            "name": "Sit Spin w/ Flying Entry 2",
+            "label": "FSSp2",
+            "value": 2.3,
+            "deduction": 0.23
+        },
+        {
+            "name": "Upright Spin w/Change of Foot 2",
+            "label": "CUSp2",
+            "value": 2,
+            "deduction": 0.2
+        },
+        {
+            "name": "Layback Spin w/Change of Foot 2",
+            "label": "CLSP2",
+            "value": 2.4,
+            "deduction": 0.24
+        },
+        {
+            "name": "Camel Spin w/ Change of Foot 2",
+            "label": "CCSp2",
+            "value": 2.3,
+            "deduction": 0.23
+        },
+        {
+            "name": "Sit Spin w/ Change of Foot 2",
+            "label": "CSSp2",
+            "value": 2.3,
+            "deduction": 0.23
+        },
+        {
+            "name": "Combo Spin w/ no Change of Foot 2",
+            "label": "CoSp2",
+            "value": 2,
+            "deduction": 0.2
+        },
+        {
+            "name": "Combo Spin w/ Change of Foot 2",
+            "label": "CCoSp2",
+            "value": 2.5,
+            "deduction": 0.25
+        },
+        {
+            "name": "Step Sequence 2",
+            "label": "StSq2",
+            "value": 2.6,
+            "deduction": 0.26
+        },
+
+        {
+            "name": "Upright Spin 3",
+            "label": "USp3",
+            "value": 1.9,
+            "deduction": 0.19
+        },
+        {
+            "name": "Layback Spin 3",
+            "label": "LSp3",
+            "value": 2.4,
+            "deduction": 0.24
+        },
+        {
+            "name": "Camel Spin 3",
+            "label": "CSp3",
+            "value": 2.3,
+            "deduction": 0.23
+        },
+        {
+            "name": "Sit Spin 3",
+            "label": "SSp3",
+            "value": 2.1,
+            "deduction": 0.21
+        },
+        {
+            "name": "Upright Spin w/ Flying Entry 3",
+            "label": "FUSp3",
+            "value": 2.4,
+            "deduction": 0.24
+        },
+        {
+            "name": "Layback Spin w/ Flying Entry 3",
+            "label": "FLSp3",
+            "value": 2.9,
+            "deduction": 0.29
+        },
+        {
+            "name": "Camel Spin w/ Flying Entry 3",
+            "label": "FCSp3",
+            "value": 2.8,
+            "deduction": 0.28
+        },
+        {
+            "name": "Sit Spin w/ Flying Entry 3",
+            "label": "FSSp3",
+            "value": 2.6,
+            "deduction": 0.26
+        },
+        {
+            "name": "Upright Spin w/Change of Foot 3",
+            "label": "CUSp3",
+            "value": 2.4,
+            "deduction": 0.24
+        },
+        {
+            "name": "Layback Spin w/Change of Foot 3",
+            "label": "CLSP3",
+            "value": 2.9,
+            "deduction": 0.29
+        },
+        {
+            "name": "Camel Spin w/ Change of Foot 3",
+            "label": "CCSp3",
+            "value": 2.8,
+            "deduction": 0.28
+        },
+        {
+            "name": "Sit Spin w/ Change of Foot 3",
+            "label": "CSSp3",
+            "value": 2.6,
+            "deduction": 0.26
+        },
+        {
+            "name": "Combo Spin w/ no Change of Foot 3",
+            "label": "CoSp3",
+            "value": 2.5,
+            "deduction": 0.25
+        },
+        {
+            "name": "Combo Spin w/ Change of Foot 3",
+            "label": "CCoSp3",
+            "value": 3,
+            "deduction": 0.3
+        },
+        {
+            "name": "Step Sequence 3",
+            "label": "StSq3",
+            "value": 3.3,
+            "deduction": 0.33
+        },
+
+        {
+            "name": "Upright Spin 4",
+            "label": "USp4",
+            "value": 2.4,
+            "deduction": 0.24
+        },
+        {
+            "name": "Layback Spin 4",
+            "label": "LSp4",
+            "value": 2.7,
+            "deduction": 0.27
+        },
+        {
+            "name": "Camel Spin 4",
+            "label": "CSp4",
+            "value": 2.6,
+            "deduction": 0.26
+        },
+        {
+            "name": "Sit Spin 4",
+            "label": "SSp4",
+            "value": 2.5,
+            "deduction": 0.25
+        },
+        {
+            "name": "Upright Spin w/ Flying Entry 4",
+            "label": "FUSp4",
+            "value": 2.9,
+            "deduction": 0.29
+        },
+        {
+            "name": "Layback Spin w/ Flying Entry 4",
+            "label": "FLSp4",
+            "value": 3.2,
+            "deduction": 0.32
+        },
+        {
+            "name": "Camel Spin w/ Flying Entry 4",
+            "label": "FCSp4",
+            "value": 3.2,
+            "deduction": 0.32
+        },
+        {
+            "name": "Sit Spin w/ Flying Entry 4",
+            "label": "FSSp4",
+            "value": 3,
+            "deduction": 0.3
+        },
+        {
+            "name": "Upright Spin w/Change of Foot 4",
+            "label": "CUSp4",
+            "value": 2.9,
+            "deduction": 0.29
+        },
+        {
+            "name": "Layback Spin w/Change of Foot 4",
+            "label": "CLSP4",
+            "value": 3.2,
+            "deduction": 0.32
+        },
+        {
+            "name": "Camel Spin w/ Change of Foot 4",
+            "label": "CCSp4",
+            "value": 3.2,
+            "deduction": 0.32
+        },
+        {
+            "name": "Sit Spin w/ Change of Foot 4",
+            "label": "CSSp4",
+            "value": 3,
+            "deduction": 0.3
+        },
+        {
+            "name": "Combo Spin w/ no Change of Foot 4",
+            "label": "CoSp4",
+            "value": 3,
+            "deduction": 0.3
+        },
+        {
+            "name": "Combo Spin w/ Change of Foot 4",
+            "label": "CCoSp4",
+            "value": 3.5,
+            "deduction": 0.35
+        },
+        {
+            "name": "Step Sequence 4",
+            "label": "StSq4",
+            "value": 3.9,
+            "deduction": 0.39
+        },
+
+
+        {
+            "name": "Double Toe Loop",
+            "label": "2T",
+            "value": 1.3,
+            "deduction": 0.13
+        },
+        {
+            "name": "Double Salchow",
+            "label": "ChSq2S",
+            "value": 1.3,
+            "deduction": 0.13
+        },
+        {
+            "name": "Double Loop",
+            "label": "2Lo",
+            "value": 1.7,
+            "deduction": 0.17
+        },
+        {
+            "name": "Double Flip",
+            "label": "2F",
+            "value": 1.8,
+            "deduction": 0.18
+        },
+        {
+            "name": "Double Lutz",
+            "label": "2Lz",
+            "value": 2.1,
+            "deduction": 0.21
+        },
+        {
+            "name": "Double Axel",
+            "label": "2A",
+            "value": 3.3,
+            "deduction": 0.33
+        },
+        {
+            "name": "Triple Toe Loop",
+            "label": "3T",
+            "value": 4.2,
+            "deduction": 0.42
+        },
+        {
+            "name": "Triple Salchow",
+            "label": "3S",
+            "value": 4.3,
+            "deduction": 0.43
+        },
+        {
+            "name": "Triple Loop",
+            "label": "3Lo",
+            "value": 4.9,
+            "deduction": 0.49
+        },
+        {
+            "name": "Triple Flip",
+            "label": "3F",
+            "value": 5.3,
+            "deduction": 0.53
+        },
+        {
+            "name": "Triple Lutz",
+            "label": "3Lz",
+            "value": 5.9,
+            "deduction": 0.59
+        },
+        {
+            "name": "Triple Axel",
+            "label": "3A",
+            "value": 8,
+            "deduction": 0.8
+        },
+        {
+            "name": "Quad Toe Loop",
+            "label": "4T",
+            "value": 9.5,
+            "deduction": 0.95
+        },
+        {
+            "name": "Quad Salchow",
+            "label": "4S",
+            "value": 9.7,
+            "deduction": 0.97
+        },
+        {
+            "name": "Quad Loop",
+            "label": "4Lo",
+            "value": 10.5,
+            "deduction": 1.05
+        },
+        {
+            "name": "Quad Flip",
+            "label": "4F",
+            "value": 11,
+            "deduction": 1.1
+        },
+        {
+            "name": "Quad Lutz",
+            "label": "4Lz",
+            "value": 11.5,
+            "deduction": 1.15
+        },
+        {
+            "name": "Quad Axel",
+            "label": "4A",
+            "value": 12.5,
+            "deduction": 1.25
+        },
+
+
+
+        {
+            "name": "Finnstep Section 1",
+            "label": "1FS",
+            "value": 4,
+            "deduction": 0.4
+        },
+        {
+            "name": "Spin/Spin Combination",
+            "label": "Sp/CoSp",
+            "value": 1.8,
+            "deduction": 0.18
+        },
+        {
+            "name": "Stationary Lift / Straight Line Lift / Curve Lift / Rotational Lift",
+            "label": "StaLi/SlLi/CuLi/RoLi",
+            "value": 1,
+            "deduction": 0.1
+        },
+        {
+            "name": "Diagonal / Midline / Circular / Serpentine Step Sequence",
+            "label": "DiSt/MiSt/CiSt/SeSt",
+            "value": 4,
+            "deduction": 0.4
+        },
+        {
+            "name": "Choreographic Character Step Sequence",
+            "label": "ChSt",
+            "value": 1.1,
+            "deduction": 0.11
+        },
+        {
+            "name": "Choreographic Dance Lift / Twizzling Movement",
+            "label": "ChLi/ChTw",
+            "value": 1.1,
+            "deduction": 0.11
+        },
+        {
+            "name": "Choreographic Spinning Movement / Sliding Movements",
+            "label": "ChSp/ChSt",
+            "value": 1.1,
+            "deduction": 0.11
+        }
+    ],
+    "antiRepetitionRule":{
+        "groups":
+            [
+                {
+                    "k": 1,
+                    "skills":
+                    [
+                        "USp",
+                        "LSp",
+                        "CSp",
+                        "SSp",
+                        "FUSp",
+                        "FLSp",
+                        "FCSp",
+                        "FSSp",
+                        "CUSp",
+                        "CLSP",
+                        "CCSp",
+                        "CSSp",
+                        "CoSp",
+                        "CCoSp",
+                        "StSq",
+                        "USp1",
+                        "LSp1",
+                        "CSp1",
+                        "SSp1",
+                        "FUSp1",
+                        "FLSp1",
+                        "FCSp1",
+                        "FSSp1",
+                        "CUSp1",
+                        "CLSP1",
+                        "CCSp1",
+                        "CSSp1",
+                        "CoSp1",
+                        "CCoSp1",
+                        "StSq1",
+                        "USp2",
+                        "LSp2",
+                        "CSp2",
+                        "SSp2",
+                        "FUSp2",
+                        "FLSp2",
+                        "FCSp2",
+                        "FSSp2",
+                        "CUSp2",
+                        "CLSP2",
+                        "CCSp2",
+                        "CSSp2",
+                        "CoSp2",
+                        "CCoSp2",
+                        "StSq2",
+                        "USp3",
+                        "LSp3",
+                        "CSp3",
+                        "SSp3",
+                        "FUSp3",
+                        "FLSp3",
+                        "FCSp3",
+                        "FSSp3",
+                        "CUSp3",
+                        "CLSP3",
+                        "CCSp3",
+                        "CSSp3",
+                        "CoSp3",
+                        "CCoSp3",
+                        "StSq3",
+                        "USp4",
+                        "LSp4",
+                        "CSp4",
+                        "SSp4",
+                        "FUSp4",
+                        "FLSp4",
+                        "FCSp4",
+                        "FSSp4",
+                        "CUSp4",
+                        "CLSP4",
+                        "CCSp4",
+                        "CSSp4",
+                        "CoSp4",
+                        "CCoSp4",
+                        "StSq4",
+                        "ChSq",
+                        "2T",
+                        "ChSq2S",
+                        "2Lo",
+                        "2F",
+                        "2Lz",
+                        "2A",
+                        "3T",
+                        "3S",
+                        "3Lo",
+                        "3F",
+                        "3Lz",
+                        "3A",
+                        "4T",
+                        "4S",
+                        "4Lo",
+                        "4F",
+                        "4Lz",
+                        "4A",
+                        "1FS",
+                        "Sp/CoSp",
+                        "StaLi/SlLi/CuLi/RoLi",
+                        "DiSt/MiSt/CiSt/SeSt",
+                        "ChSt",
+                        "ChLi/ChTw",
+                        "ChSp/ChSt"
+                    ]
+                }
+            ]
+    },
+    "elementGroupRule":{
+        "groups":
+            [
+            ]
+    },
+    "connectionRule":{
+        "connections":
+            [
+            ]
+    },
+    "incompleteGraphRule":{
+        "edges":
+            [
+            ]
+    }
+}
