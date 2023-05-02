@@ -69,7 +69,6 @@ func (r AntiRepetition) GetBitstring(seq models.Sequence, routine int) []float64
 			} else {
 				bitstring[i] = 1.0
 			}
-
 		}
 	} else {
 		// Non hierarhical rule

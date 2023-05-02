@@ -572,9 +572,6 @@
             "value": 12.5,
             "deduction": 1.25
         },
-
-
-
         {
             "name": "Finnstep Section 1",
             "label": "1FS",
@@ -728,21 +725,6 @@
                         "ChSp/ChSt"
                     ]
                 }
-            ]
-    },
-    "elementGroupRule":{
-        "groups":
-            [
-            ]
-    },
-    "connectionRule":{
-        "connections":
-            [
-            ]
-    },
-    "incompleteGraphRule":{
-        "edges":
-            [
             ]
     }
 }

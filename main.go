@@ -4,6 +4,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"math"
 	"runtime"
 	"time"
 
@@ -21,13 +22,14 @@ func main() {
 	generatorFlag := flag.Int("gen", 0, "upper length of sequences to generate")
 	generatorMinimumFlag := flag.Int("gen-min", 1, "minimum length of sequences to generate")
 	printAllFlag := flag.Bool("print-all", false, "print all sequences")
+	annealingFlag := flag.Bool("ann", false, "use annealing")
 
 	flag.Parse()
 
-	execute(fileFlag, sequenceFlag, generatorFlag, generatorMinimumFlag, printAllFlag)
+	execute(fileFlag, sequenceFlag, generatorFlag, generatorMinimumFlag, printAllFlag, annealingFlag)
 }
 
-func execute(fileFlag *string, sequenceFlag *string, generatorFlag *int, generatorMinimumFlag *int, printAllFlag *bool) error {
+func execute(fileFlag *string, sequenceFlag *string, generatorFlag *int, generatorMinimumFlag *int, printAllFlag *bool, annealingFlag *bool) error {
 	start := time.Now()
 	filePath := ""
 
@@ -73,6 +75,11 @@ func execute(fileFlag *string, sequenceFlag *string, generatorFlag *int, generat
 		maxSequences, maxValue := generator.GenerateSequences(algorithm, sport.Skills, *generatorFlag, *generatorMinimumFlag, routines, *printAllFlag)
 		fmt.Printf("Optimal sequence(s): %v\n", maxSequences)
 		fmt.Printf("Value of optimal sequence(s): %.2f\n", maxValue)
+	}
+
+	if *annealingFlag {
+		seq, cost := generator.Annealing(algorithm, 12, 100000, 0.995, math.Exp(-20), routines, 100)
+		fmt.Printf("Optimal sequence: %v with cost: %v\n", seq, cost)
 	}
 
 	elapsed := time.Since(start)
