@@ -19,10 +19,16 @@ def generateSport(skill_count,ar_rules,con_rules,eg_rules,ig_rules):
             }
         )
         skills.append("S"+str(i))
-    ar = [] 
+    ar = []
+    ar_skills = skills.copy()
+    max_in_ar = math.floor(skill_count/ar_rules)
     for i in range(0,ar_rules):
         ar_rule = {"k":random.randint(1,math.floor(skill_count/3))}
-        ar_rule["skills"] = random.choices(skills,k=math.floor(skill_count/3))
+        chosen = random.choices(ar_skills,k=math.floor(random.random()*max_in_ar)+1)
+        chosen = list(dict.fromkeys(chosen))
+        ar_rule["skills"] = chosen 
+        for sk in chosen:
+            ar_skills.remove(sk)
         ar.append(ar_rule)
 
     con = [] 
@@ -39,10 +45,16 @@ def generateSport(skill_count,ar_rules,con_rules,eg_rules,ig_rules):
         ig_rule["s2"] = random.choice(skills)
         ig.append(ig_rule)
 
-    eg = [] 
+    eg = []
+    eg_skills = skills.copy()
+    max_in_eg = math.floor(skill_count/eg_rules)
     for i in range(0,eg_rules):
-        eg_rule = {"value":random.randint(1,math.floor(skill_count/3))}
-        eg_rule["skills"] = random.choices(skills,k=math.floor(skill_count/3))
+        eg_rule = {"value":random.randint(1,10)}
+        chosen = random.choices(eg_skills,k=math.floor(random.random()*max_in_eg)+1)
+        chosen = list(dict.fromkeys(chosen))
+        eg_rule["skills"] = chosen 
+        for sk in chosen:
+            eg_skills.remove(sk)
         eg.append(eg_rule)
 
     sport["skills"] = skills_array
