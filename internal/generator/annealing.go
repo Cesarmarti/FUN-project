@@ -1,7 +1,6 @@
 package generator
 
 import (
-	"fmt"
 	"math"
 	"math/rand"
 	"sync"
@@ -91,9 +90,6 @@ func Annealing(algo al.Algorithm, length int, maxIter int, alpha, tMin float64, 
 
 	collector.done <- true
 
-	fmt.Printf("Iterations: %d\n", iter)
-	fmt.Printf("Temperature: %f\n", t)
-
 	return bestSequence, bestCost
 }
 
@@ -125,7 +121,7 @@ func annealingRoutine(algo al.Algorithm, sequence []string, bestScore float64, r
 		newSkill := rand.Intn(len(skills))
 		index := rand.Intn(len(sequence))
 		newSequence[index] = skills[newSkill]
-		newScore := algo.Evaluate(sequence, routine)
+		newScore := algo.Evaluate(newSequence, routine)
 		if newScore > bestScore {
 			bestSequence = newSequence
 			bestScore = newScore
