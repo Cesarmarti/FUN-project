@@ -55,7 +55,7 @@ func (c *annealingCollector) Run() {
 	}
 }
 
-func Annealing(algo al.Algorithm, length int, maxIter int, alpha, tMin float64, routines int, branching int) (models.Sequence, float64) {
+func Annealing(algo al.Algorithm, length int, maxIter int, alpha float64, routines int, branching int) (models.Sequence, float64) {
 	rand.Seed(time.Now().UnixNano())
 	skills := lo.Map(algo.Sport.Skills, func(skill models.Skill, index int) string {
 		return skill.Label
@@ -72,35 +72,33 @@ func Annealing(algo al.Algorithm, length int, maxIter int, alpha, tMin float64, 
 	}
 
 	bestCost := algo.Evaluate(bestSequence, 0)
-	t := 1.0
+	t := 0.5
 
 	iter := 0
 
-	for ; iter < maxIter && t > tMin; iter++ {
-		newSequence, newCost := generateNeighbor(algo, bestSequence, bestCost, skills, collector, branching, routines)
+	for ; iter < maxIter; iter++ {
+		newSequence, newCost := generateNeighbor(algo, bestSequence, bestCost, skills, t, collector, branching, routines)
 
 		if newCost > bestCost || rand.Float64() < t {
 			bestSequence = newSequence
 			bestCost = newCost
 		}
 
-		if iter%10 == 0 {
-			t *= alpha
-		}
+		t *= 0.5
+
 	}
 
 	collector.done <- true
 
 	fmt.Printf("Iterations: %d\n", iter)
-	fmt.Printf("Temperature: %f\n", t)
 
 	return bestSequence, bestCost
 }
 
-func generateNeighbor(algo al.Algorithm, sequence []string, score float64, skills []string, collector *annealingCollector, branching int, routines int) ([]string, float64) {
+func generateNeighbor(algo al.Algorithm, sequence []string, score float64, skills []string, t float64, collector *annealingCollector, branching int, routines int) ([]string, float64) {
 	collector.wg.Add(routines)
 	for i := 0; i < routines; i++ {
-		go annealingRoutine(algo, sequence, score, i, branching, skills, collector.result)
+		go annealingRoutine(algo, sequence, score, i, branching, skills, t, collector.result)
 	}
 
 	collector.wg.Wait()
@@ -114,7 +112,7 @@ func generateNeighbor(algo al.Algorithm, sequence []string, score float64, skill
 	return result.sequence, result.maxValue
 }
 
-func annealingRoutine(algo al.Algorithm, sequence []string, bestScore float64, routine int, branching int, skills []string, resultChan chan annealingResult) {
+func annealingRoutine(algo al.Algorithm, sequence []string, bestScore float64, routine int, branching int, skills []string, t float64, resultChan chan annealingResult) {
 	rand.Seed(time.Now().UnixNano() * int64(routine+1))
 	bestSequence := make([]string, len(sequence))
 	copy(bestSequence, sequence)
@@ -125,8 +123,8 @@ func annealingRoutine(algo al.Algorithm, sequence []string, bestScore float64, r
 		newSkill := rand.Intn(len(skills))
 		index := rand.Intn(len(sequence))
 		newSequence[index] = skills[newSkill]
-		newScore := algo.Evaluate(sequence, routine)
-		if newScore > bestScore {
+		newScore := algo.Evaluate(newSequence, routine)
+		if newScore > bestScore || rand.Float64() < t {
 			bestSequence = newSequence
 			bestScore = newScore
 		}

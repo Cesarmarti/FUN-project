@@ -4,7 +4,6 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"math"
 	"runtime"
 	"time"
 
@@ -78,11 +77,11 @@ func execute(fileFlag *string, sequenceFlag *string, generatorFlag *int, generat
 	}
 
 	if *annealingFlag {
-		seq, cost := generator.Annealing(algorithm, 12, 100000, 0.995, math.Exp(-20), routines, 100)
+		seq, cost := generator.Annealing(algorithm, 12, 100000, 0.99, routines, 50)
 		fmt.Printf("Optimal sequence: %v with cost: %v\n", seq, cost)
 	}
 
 	elapsed := time.Since(start)
-	fmt.Printf("Execution time: %s", elapsed)
+	fmt.Printf("Execution time: %s\n", elapsed)
 	return nil
 }
