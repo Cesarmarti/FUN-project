@@ -83,9 +83,7 @@ func Annealing(algo al.Algorithm, length int, maxIter int, alpha, tMin float64, 
 			bestCost = newCost
 		}
 
-		if iter%10 == 0 {
-			t *= alpha
-		}
+		t *= alpha
 	}
 
 	collector.done <- true
