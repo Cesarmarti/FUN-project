@@ -4,6 +4,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"math"
 	"runtime"
 	"time"
 
@@ -12,7 +13,7 @@ import (
 	"github.com/Cesarmarti/FUN-project/internal/models"
 )
 
-var errFailed error = errors.New("Failed to execute")
+var errFailed error = errors.New("failed to execute")
 
 func main() {
 
@@ -21,19 +22,22 @@ func main() {
 	generatorFlag := flag.Int("gen", 0, "upper length of sequences to generate")
 	generatorMinimumFlag := flag.Int("gen-min", 1, "minimum length of sequences to generate")
 	printAllFlag := flag.Bool("print-all", false, "print all sequences")
-	annealingFlag := flag.Bool("ann", false, "use annealing")
+	annealingFlag := flag.Int("ann", 0, "use annealing generation for sequences of given length")
+	geneticFlag := flag.Int("genetic", 0, "use genetic generation for sequences of given length")
 
 	flag.Parse()
 
-	execute(fileFlag, sequenceFlag, generatorFlag, generatorMinimumFlag, printAllFlag, annealingFlag)
+	execute(fileFlag, sequenceFlag, generatorFlag, generatorMinimumFlag, printAllFlag, annealingFlag, geneticFlag)
 }
 
-func execute(fileFlag *string, sequenceFlag *string, generatorFlag *int, generatorMinimumFlag *int, printAllFlag *bool, annealingFlag *bool) error {
+func execute(fileFlag *string, sequenceFlag *string, generatorFlag *int, generatorMinimumFlag *int, printAllFlag *bool, annealingFlag *int, geneticFlag *int) error {
 	start := time.Now()
 	filePath := ""
 
-	cpus := runtime.NumCPU()
-	routines := cpus
+	threads := runtime.NumCPU()
+	// Divide by 2 assuming threads are 2 per core, hyper threading is useless a the workload is the same
+	// Take 2, first serves as main, second is used for collector
+	routines := threads/2 - 2
 
 	if *fileFlag != "" {
 		filePath = *fileFlag
@@ -73,15 +77,32 @@ func execute(fileFlag *string, sequenceFlag *string, generatorFlag *int, generat
 		}
 		maxSequences, maxValue := generator.GenerateSequences(algorithm, sport.Skills, *generatorFlag, *generatorMinimumFlag, routines, *printAllFlag)
 		fmt.Printf("Optimal sequence(s): %v\n", maxSequences)
-		fmt.Printf("Value of optimal sequence(s): %.2f\n", maxValue)
+		fmt.Printf("Sequence value: %.2f\n", maxValue)
 	}
 
-	if *annealingFlag {
-		seq, cost := generator.Annealing(algorithm, 12, 100000, 0.99, routines, 50)
-		fmt.Printf("Optimal sequence: %v with cost: %v\n", seq, cost)
+	if *annealingFlag != 0 {
+		aStart := time.Now()
+		// Routines add work, more means longer execution time
+		seq, cost := generator.Annealing(algorithm, *annealingFlag, 1000, 0.995, math.Exp(-20), routines, 100)
+		fmt.Println("----------------------------------------------")
+		fmt.Println("Annealing generation:")
+		fmt.Printf("Optimal sequence: %v\n", seq)
+		fmt.Printf("Sequence value: %.2f\n", cost)
+		fmt.Printf("Exectution time: %v\n", time.Since(aStart))
+	}
+
+	if *geneticFlag != 0 {
+		gStart := time.Now()
+		seq, cost := generator.Genetic(algorithm, *geneticFlag, 1000, 1000, routines)
+		fmt.Println("----------------------------------------------")
+		fmt.Println("Genetic generation:")
+		fmt.Printf("Optimal sequence: %v\n", seq)
+		fmt.Printf("Sequence value: %.2f\n", cost)
+		fmt.Printf("Exectution time: %v\n", time.Since(gStart))
 	}
 
 	elapsed := time.Since(start)
-	fmt.Printf("Execution time: %s\n", elapsed)
+	fmt.Println("----------------------------------------------")
+	fmt.Printf("Total execution time: %s", elapsed)
 	return nil
 }

@@ -26,6 +26,8 @@
     * -gen : upper length of sequences to generate and test, returns sequences witht the highest value
     * -gen-min : minimum length of sequences to generate, default: true
     * -print-all : print all optimal sequences instead of one, default: false
+    * -ann : use annealing generation to generate sequences of given length
+    * -genetic : use genetic generation to generate sequences of given length
 
 2. Sequences \
     Sequence elements must be delimited with a dot. \

@@ -1,7 +1,6 @@
 package generator
 
 import (
-	"fmt"
 	"math"
 	"math/rand"
 	"sync"
@@ -55,7 +54,7 @@ func (c *annealingCollector) Run() {
 	}
 }
 
-func Annealing(algo al.Algorithm, length int, maxIter int, alpha float64, routines int, branching int) (models.Sequence, float64) {
+func Annealing(algo al.Algorithm, length int, maxIter int, alpha, tMin float64, routines int, branching int) (models.Sequence, float64) {
 	rand.Seed(time.Now().UnixNano())
 	skills := lo.Map(algo.Sport.Skills, func(skill models.Skill, index int) string {
 		return skill.Label
@@ -84,13 +83,12 @@ func Annealing(algo al.Algorithm, length int, maxIter int, alpha float64, routin
 			bestCost = newCost
 		}
 
-		t *= 0.5
-
+		if iter%10 == 0 {
+			t *= alpha
+		}
 	}
 
 	collector.done <- true
-
-	fmt.Printf("Iterations: %d\n", iter)
 
 	return bestSequence, bestCost
 }
